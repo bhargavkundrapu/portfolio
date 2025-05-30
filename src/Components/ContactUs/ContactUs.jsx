@@ -53,68 +53,65 @@ const ContactUs = ({ isActiveSection = false }) => {
     }
   };
 
+  const TypewriterEffect = ({ 
+    text = "Welcome to our amazing website!", 
+    speed = 100, 
+    showCursor = false,
+    className = "",
+    onComplete = null 
+  }) => {
+    const [displayText, setDisplayText] = useState('');
+    const [isComplete, setIsComplete] = useState(false);
 
-const TypewriterEffect = ({ 
-  text = "Welcome to our amazing website!", 
-  speed = 100, 
-  showCursor = false,
-  className = "",
-  onComplete = null 
-}) => {
-  const [displayText, setDisplayText] = useState('');
-  const [isComplete, setIsComplete] = useState(false);
-
-  useEffect(() => {
-    if (displayText.length < text.length) {
-      const timer = setTimeout(() => {
-        setDisplayText(text.slice(0, displayText.length + 1));
-      }, speed);
-      return () => clearTimeout(timer);
-    } else {
-      setIsComplete(true);
-      if (onComplete) onComplete();
-    }
-  }, [displayText, text, speed, onComplete]);
-  return (
-    <div className={`inline-block ${className}`}>
-      <span className="">
-        {displayText}
-        {showCursor && <span className="ml-1 animate-pulse">|</span>}
-      </span>
-    </div>
-  );
-};
-
-
+    useEffect(() => {
+      if (displayText.length < text.length) {
+        const timer = setTimeout(() => {
+          setDisplayText(text.slice(0, displayText.length + 1));
+        }, timer);
+        return () => clearTimeout(timer);
+      } else {
+        setIsComplete(true);
+        if (onComplete) onComplete();
+      }
+    }, [displayText, text, speed, onComplete]);
+    
+    return (
+      <div className={`inline-block ${className}`}>
+        <span className="">
+          {displayText}
+          {showCursor && <span className="ml-1 animate-pulse">|</span>}
+        </span>
+      </div>
+    );
+  };
 
   return (
     <section ref={sectionRef} id="contact" className="contact-container h-dvh w-screen overflow-x-hidden stack">
-       <div >
-        {/* main container */}
-         <div className={`projects-header ${isVisible ? 'fade-in' : ''}`}>
-                  <h2 className="text-4xl md:text-6xl font-extrabold text-white mb-8 text-center">
-                   <GradientText
-                                    colors={[
-                                      "#b03a00",
-                                      "#8000ff",
-                                       "#4c00ff",
-                                      "#f79d00",                                         
-                                      "#e8b31e",
-                                     
-                                    ]}
-                                    animationSpeed={5}
-                                    showBorder={false}
-                                    className="custom-class font-robert-medium text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-extrabold"
-                                  >
-                                   CONTACT US
-                                  </GradientText>
-                  </h2>
+      {/* Main container with responsive layout */}
+      <div className="contact-main-wrapper">
+        {/* Header */}
+        <div className={`contact-header ${isVisible ? 'fade-in' : ''}`}>
+          <GradientText
+            colors={[
+              "#b03a00",
+              "#8000ff",
+              "#4c00ff",
+              "#f79d00",                                         
+              "#e8b31e",
+            ]}
+            animationSpeed={5}
+            showBorder={false}
+            className="custom-class font-robert-medium contact-title font-extrabold"
+          >
+            CONTACT US
+          </GradientText>
         </div>
-        <div>
-            <ContactForm></ContactForm>
+
+        {/* Content wrapper for responsive positioning */}
+        <div className="contact-content-wrapper">
+          <ContactForm />
         </div>
       </div>
-      
     </section>
   );
 };
