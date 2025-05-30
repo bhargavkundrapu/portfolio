@@ -73,7 +73,7 @@ const ContactUs = ({ isActiveSection = false }) => {
         setIsComplete(true);
         if (onComplete) onComplete();
       }
-    }, [displayText, text, speed, onComplete]);
+    }, [displayText, text, speed, onComplete]); 
     
     return (
       <div className={`inline-block ${className}`}>
