@@ -202,8 +202,8 @@ if (!isVisible && animationCompleted) {
       color: "#F05032",
     },
     {
-      name: "Java",
-      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+      name: "Python",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
       color: "#ED8B00",
     },
   ];
