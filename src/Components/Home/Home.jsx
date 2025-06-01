@@ -53,7 +53,7 @@ const Home = ({ isActiveSection = false }) => {
       <div >
           <div className="profile-circle  md:pl-5 sm:pl-4">
             <img 
-              src="https://res.cloudinary.com/dnbnst2wn/image/upload/v1748097749/Screenshot_2025-05-24_201046_fp7zfy.png"
+              src="https://res.cloudinary.com/dnbnst2wn/image/upload/v1748801410/WhatsApp_Image_2025-06-01_at_20.56.38_cdd0cb6d_vb27rs.jpg"
               alt="Profile" 
               className="profile-image"
             />

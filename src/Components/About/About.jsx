@@ -16,7 +16,7 @@ const About = () => {
   const handleResumeDownload = () => {
     // Create a temporary link element
     const link = document.createElement('a');
-    link.href = 'https://drive.google.com/uc?export=download&id=1H4MpXZJF7O4p8WBNFZd4TKfSFTCcnZ-7'; // Replace with your resume file path
+    link.href = 'https://drive.google.com/uc?export=download&id=1EqdXIjHs-C1FpMaQioFMyTmr44Ok6A-z'; // Replace with your resume file path
     link.download = 'Bhargav_Kundrapu_Resume.pdf'; // Name for the downloaded file
     document.body.appendChild(link);
     link.click();
@@ -27,11 +27,11 @@ const About = () => {
     <section ref={sectionRef} id="about" className="min-h-screen w-screen overflow-x-hidden stack">
       <div className="stacking-section min-h-screen w-full bg-[#000] flex flex-col md:flex-row items-center justify-center py-4 sm:py-6 md:py-8 lg:py-0">
         {/* left part */}
-        <div className="brightness-50  md:order-1 w-full h-48 sm:h-64 lg:w-1/2 md:h-80 lg:h-96 xl:w-1/2 xl:h-4/5 flex flex-col items-center justify-center md:justify-end px-2 sm:px-4">
+        <div className="brightness-50  md:order-1 w-full h-48 sm:h-64 lg:w-1/2 md:h-80 lg:h-96 xl:w-1/2 xl:h-2/5 flex flex-col items-center justify-center md:justify-end px-2 sm:px-4">
           <img 
-            src="https://res.cloudinary.com/dnbnst2wn/image/upload/v1748281650/photo_jkc3j1.jpg" 
+            src="https://res.cloudinary.com/dnbnst2wn/image/upload/v1748801404/WhatsApp_Image_2025-06-01_at_20.54.38_aa4d0f94_dcylgd.jpg" 
             alt="profilepic" 
-            className="max-w-full max-h-full object-contain"
+            className="w-1/2 max-h-full object-contain"
           />                        
         </div>
 
