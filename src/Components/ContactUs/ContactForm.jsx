@@ -83,8 +83,8 @@ export default function ContactForm() {
           email: formData.email,
           phone: formData.phone,
           message: formData.message,
-          subject: "New Contact Message from your Website",
-          from_name: "Your Website"
+          subject: "New Contact Message from your Portfolio",
+          from_name: "Portfolio"
         }),
       });
 
