@@ -10,7 +10,7 @@ const pro = [
     description:
       "Your complete Ooty travel companion offering reliable cab services, curated tour packages, expert local guides, and personalized sightseeing experiences in the Queen of Hill Stations.",
     demoLink: "https://ootytravels1-1.vercel.app/",
-    codeLink: "https://github.com/Vishvjeet-Rana/AetherCore-GamingAI-Site",
+    codeLink: "https://github.com/bhargavkundrapu/Oootytourismwebsitemain",
   },
   {
     image: "https://res.cloudinary.com/dnbnst2wn/image/upload/v1748797641/WhatsApp_Image_2025-06-01_at_22.26.22_8b5ee488_dlw0zr.jpg",
@@ -18,7 +18,7 @@ const pro = [
     description:
       "A modern ecommerce platform featuring product browsing, shopping cart functionality, and seamless online shopping experience with contemporary design and user-friendly interface.",
     demoLink: " http://nxttrendxkbs6.ccbp.tech/",
-    codeLink: "https://github.com/Vishvjeet-Rana/iPhone15-Website-Three.js",
+    codeLink: "https://github.com/bhargavkundrapu/new",
   },
   {
     image: "https://res.cloudinary.com/dnbnst2wn/image/upload/v1748797641/WhatsApp_Image_2025-06-01_at_22.26.22_6a183f50_gfrj8y.jpg",
@@ -26,7 +26,7 @@ const pro = [
     description:
       "A Wikipedia-inspired knowledge platform offering organized article browsing, search functionality, and structured information display for seamless learning and research.",
     demoLink: " http://wikepediaclone.ccbp.tech/",
-    codeLink: "https://github.com/Vishvjeet-Rana/password-generator-reactjs",
+    codeLink: "https://github.com/bhargavkundrapu/newwebsite",
   },
   {
     image: "https://res.cloudinary.com/dnbnst2wn/image/upload/v1748797986/WhatsApp_Image_2025-06-01_at_22.42.55_b3540498_zyyhnc.jpg",
@@ -34,14 +34,14 @@ const pro = [
     description:
       "A clean and intuitive todo list application for organizing daily tasks, tracking progress, and boosting productivity with user-friendly task management features.",
     demoLink: "http://maketoday.ccbp.tech/ ",
-    codeLink: "https://github.com/Vishvjeet-Rana/Study-Sync-Responsive",
+    codeLink: "https://github.com/bhargavkundrapu/todowebsite",
   },
   {
     image: "https://res.cloudinary.com/dnbnst2wn/image/upload/v1748797641/WhatsApp_Image_2025-06-01_at_22.26.23_0cb05410_yoqmbl.jpg",
     title: "Foodmunch website",
     description: "A comprehensive food discovery platform showcasing restaurant dishes, social dining experiences.",
     demoLink: "https://foodhandiness.ccbp.tech/",
-    codeLink: "https://github.com/Vishvjeet-Rana/Spotify-Landing-Page-Static-",
+    codeLink: "https://github.com/bhargavkundrapu/foodhandiness",
   },
   /*
   {
