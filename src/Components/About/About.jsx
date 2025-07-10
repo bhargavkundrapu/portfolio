@@ -16,7 +16,7 @@ const About = () => {
   const handleResumeDownload = () => {
     // Create a temporary link element
     const link = document.createElement('a');
-    link.href = 'https://drive.google.com/uc?export=download&id=1EqdXIjHs-C1FpMaQioFMyTmr44Ok6A-z'; // Replace with your resume file path
+    link.href = 'https://drive.google.com/uc?export=download&id=1eQ8rpRoiREmMKrPJbAHfrmr8JHMJrxjh'; // Replace with your resume file path
     link.download = 'Bhargav_Kundrapu_Resume.pdf'; // Name for the downloaded file
     document.body.appendChild(link);
     link.click();
