@@ -4,6 +4,13 @@ import ProjectCard from "./ProjectCards";
 
 
 const pro = [
+   {
+    image: "https://res.cloudinary.com/dmof2vhqp/image/upload/v1752161463/Screenshot_2025-07-10_205702_khahi8.png",
+    title: "Finvis Associates",
+    description: "A Lawyer Based Website",
+    demoLink: "finvis.co.in",
+    codeLink: "https://github.com/bhargavkundrapu/finvis-associates",
+  },
   {
     image: "https://res.cloudinary.com/dnbnst2wn/image/upload/v1748797641/WhatsApp_Image_2025-06-01_at_22.26.23_b7a1d984_hv6yjo.jpg",
     title: "Ooty travels - FrontEnd",
@@ -44,13 +51,7 @@ const pro = [
     codeLink: "https://github.com/bhargavkundrapu/foodhandiness",
   },
   /*
-  {
-    image: todo,
-    title: "Todo List",
-    description: "Minimalist Neumorphic To-Do List with a stylish soft UI.",
-    demoLink: "https://vishvjeet-rana.github.io/To-Do-List-JavaScript/",
-    codeLink: "https://github.com/Vishvjeet-Rana/To-Do-List-JavaScript",
-  },
+ 
   {
     image: ecom,
     title: "Ecommerce-site FrontEnd",
