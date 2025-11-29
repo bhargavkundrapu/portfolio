@@ -8,7 +8,7 @@ const pro = [
     image: "https://res.cloudinary.com/dmof2vhqp/image/upload/v1752161463/Screenshot_2025-07-10_205702_khahi8.png",
     title: "Finvis Associates",
     description: "A Lawyer Based Website",
-    demoLink: "finvis.co.in",
+    demoLink: "https://finvis.co.in/",
     codeLink: "https://github.com/bhargavkundrapu/finvis-associates",
   },
   {
